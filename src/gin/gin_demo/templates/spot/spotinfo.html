@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>景点信息录入</title>
+</head>
+<body>
+<div style="display: flex; justify-content: center; align-items: center; height: calc(100vh)">
+    <form action="/spot/info" method="post" novalidate autocomplete="off" enctype="multipart/form-data">
+        <div>
+            <label for="name">景区名称:</label>
+            <input type="text" name="Name" id="name">
+        </div>
+        <br>
+        <div>
+            <label for="address">景区地址:</label>
+            <input type="text" name="Address" id="address">
+        </div>
+        <br>
+        <div>
+            <label for="mobile">客服电话:</label>
+            <input type="text" name="Mobile" id="mobile">
+        </div>
+        <br>
+        <div>
+            <label for="image">景区图像:</label>
+            <input type="file" name="picture" id="image">
+        </div>
+        <br>
+            <label for="text">描述文本:</label>
+            <textarea name="Text" id="text" cols="40" rows="20"></textarea>
+        <br>
+        <div>
+            <input type="submit" value="提交" style="float: right">
+        </div>
+    </form>
+</div>
+</body>
+</html>

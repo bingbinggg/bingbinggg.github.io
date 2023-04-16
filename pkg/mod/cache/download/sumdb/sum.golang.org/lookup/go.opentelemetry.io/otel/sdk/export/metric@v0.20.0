@@ -1,0 +1,9 @@
+3995064
+go.opentelemetry.io/otel/sdk/export/metric v0.20.0 h1:c5VRjxCXdQlx1HjzwGdQHzZaVI82b5EbBgOu2ljD92g=
+go.opentelemetry.io/otel/sdk/export/metric v0.20.0/go.mod h1:h7RBNMsDJ5pmI1zExLi+bJK+Dr8NQCh0qGhm1KDnNlE=
+
+go.sum database tree
+16974330
+8pE7U73UNnoKFbsL3RnGd91+ZpBE6re8/Mdkl8Cvqf8=
+
+— sum.golang.org Az3grnjddtP98Pb9CkXfcf3l/nqgK7nMoU++n7y2N0HY9wfkZNRodRFm9LeFNkrToBeYI9y1FC9smGa+/UJ9Cp1XfAk=

@@ -1,0 +1,5 @@
+url: 127.0.0.1
+userName: root
+password: 2023
+dbname: example
+post: 3306

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>用户注册</title>
+</head>
+<body>
+<div style="display: flex; justify-content: center; align-items: center; height: calc(100vh)">
+  <form action="/user/register" method="post" novalidate autocomplete="off" enctype="multipart/form-data">
+    <div>
+      <label for="name">用户名称:</label>
+      <input type="text" name="Name" id="name">
+    </div>
+    <br>
+    <div>
+      <label for="password">密码:</label>
+      <input type="password" name="Password" id="password">
+    </div>
+    <br>
+    <div>
+      <label for="email">邮箱:</label>
+      <input type="text" name="Email" id="email">
+    </div>
+    <br>
+    <div>
+      <label for="mobile">电话:</label>
+      <input type="text" name="Mobile" id="mobile">
+    </div>
+    <br>
+    <div>
+      <label for="image">头像:</label>
+      <input type="file" name="avatar" id="image">
+    </div>
+    <br>
+    <div>
+      <input type="submit" value="提交" style="float: right">
+    </div>
+  </form>
+</div>
+</body>
+</html>

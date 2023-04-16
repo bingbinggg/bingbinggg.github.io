@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>景区列表</title>
+</head>
+<body>
+<table style="align-items: center">
+    <thead>
+    <tr>
+        <th>景区名</th>
+        <th>评分</th>
+        <th>所在地区</th>
+    </tr>
+    </thead>
+    <tbody>
+    {{range .data}}
+    <tr>
+        <td>{{ .Name }}</td>
+        <td>{{ .Score }}</td>
+        <td>{{ .Address }}</td>
+    </tr>
+    {{end}}
+    </tbody>
+</table>
+</body>
+</html>

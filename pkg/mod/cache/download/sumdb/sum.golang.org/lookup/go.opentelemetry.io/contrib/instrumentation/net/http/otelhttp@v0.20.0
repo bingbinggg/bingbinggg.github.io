@@ -1,0 +1,9 @@
+4008413
+go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.20.0 h1:Q3C9yzW6I9jqEc8sawxzxZmY48fs9u220KXq6d5s3XU=
+go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.20.0/go.mod h1:2AboqHi0CiIZU0qwhtUfCYD1GeUzvvIXWNkhDt7ZMG4=
+
+go.sum database tree
+16980904
+gUUL3QFLFpQQ2OPIO8/fBcWMFhewP5Amg2clLD9eA0I=
+
+— sum.golang.org Az3grn7LdLRlqSrWyuNjCfjKHgOFkG/3T3FDBjbWndhj14uFDajLmouQbVSSBJmGTTwO21bOhkf1LBqp6+A89/csTgU=
