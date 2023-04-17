@@ -9,7 +9,7 @@ func SetRouter() *gin.Engine {
 	r := gin.Default()
 
 	//加载HTML文件
-	r.LoadHTMLFiles("./templates/user/register.html", "./templates/user/login.html", "./templates/user/index.html",
+	r.LoadHTMLFiles("https://bingbinggg.github.io/src/gin/gin_demo/templates/user/register.html", "./templates/user/login.html", "./templates/user/index.html",
 		"./templates/spot/spotinfo.html", "./templates/spot/spotDisplay.html",
 	)
 
